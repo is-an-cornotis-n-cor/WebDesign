@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Cardo|Frank+Ruhl+Libre|Libre+Baskerville|Noticia+Text&display=swap');
+
+/* start of body features */
+body {
+  background: #000000;
+  background: -moz-linear-gradient(left, #000000 0%, #000000 50%, #333333 100%);
+  background: -webkit-linear-gradient(left, #000000 0%, #000000 50%, #333333 100%);
+  background: linear-gradient(to right, #000000 0%, #000000 50%, #333333 100%);}
+* {
+  color: white;
+}
+body :not(a) {
+  font-family: Alegreya, serif;
+  font-family: Cardo, serif;
+}
+h2, h3, h4, h5, h6, p, footer {
+  color: #FF6161
+}
+h1 {
+color: black;
+}
+h1 {
+  display: block;
+  background-color: white;
+ padding-bottom: 5px
+}
+/* end of heading design */
+/* end of body features */
+/* start of nav bar design */
+.clear{
+  clear: both;
+  float: none;
+}
+a {
+  float: left;
+}
+
+  a {
+  display: block;
+  color: black;
+  padding: 14px;
+  text-decoration: none;
+  bottom: 100%;
+
+}
+
+ a:hover {
+  background-color: grey;
+}
+
+a {
+  background-color: white;
+  border: 5px solid #FF6161;
+}
+.nav-heading {
+  position: absolute;
+  top: auto;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* end of nav bar design */
+
+h1 {
+  display: block;
+  background-color: white;
+ padding-bottom: 5px
+}
+
+
+.heading1 {
+margin-left: 20%;
+margin-right: 20%
+}
+/* start of img design */
+img {
+width: 100%;
+height: auto;
+}
+/* end of img desi */
+
+ #Contactinfo3 #Contactinfo4 #Contactinfo2 #Contactinfo1{
+  display: flex;
+  justify-content: flex-end;
+}
