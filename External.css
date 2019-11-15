@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya|Cardo|Frank+Ruhl+Libre|Libre+Baskerville|Noticia+Text&display=swap');
 
 /* start of body features */
+
+
 body {
   background: #000000;
   background: -moz-linear-gradient(left, #000000 0%, #000000 50%, #333333 100%);
@@ -61,7 +63,15 @@ a {
   height: 1px;
   overflow: hidden;
 }
-
+.Navigation {
+  display: grid;
+  grid-template-areas:
+  "a a a a a"
+}
+a{
+  display: flex;
+  justify-content: center;
+}
 /* end of nav bar design */
 
 h1 {
@@ -69,7 +79,10 @@ h1 {
   background-color: white;
  padding-bottom: 5px
 }
-
+h1 {
+  display: flex;
+  justify-content: center;
+}
 
 .heading1 {
 margin-left: 20%;
@@ -85,4 +98,8 @@ height: auto;
  #Contactinfo3 #Contactinfo4 #Contactinfo2 #Contactinfo1{
   display: flex;
   justify-content: flex-end;
+}
+section h2{
+  display: flex;
+  justify-content: center;
 }
