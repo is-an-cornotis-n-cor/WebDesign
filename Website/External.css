@@ -113,7 +113,8 @@ height: auto;
 }
 
 .a {
+  font-size: 1.5em;
   display: flex;
-  flex-direction: row;
-  align-items: flex-end;
+  margin-top: 10%;
+  align-items: center;
 }
