@@ -1,34 +1,5 @@
 
 @import url('https://fonts.googleapis.com/css?family=Alegreya|Cardo|Frank+Ruhl+Libre|Libre+Baskerville|Noticia+Text&display=swap');
-
-/* start of body features */
-
-
-body {
-  background: #000000;
-  background: -moz-linear-gradient(left, #000000 0%, #000000 50%, #333333 100%);
-  background: -webkit-linear-gradient(left, #000000 0%, #000000 50%, #333333 100%);
-  background: linear-gradient(to right, #000000 0%, #000000 50%, #333333 100%);}
-* {
-  color: white;
-}
-body :not(a) {
-  font-family: Alegreya, serif;
-  font-family: Cardo, serif;
-}
-h2, h3, h4, h5, h6, p, footer {
-  color: #FF6161
-}
-h1 {
-color: black;
-}
-h1 {
-  display: block;
-  background-color: white;
- padding-bottom: 5px
-}
-/* end of heading design */
-/* end of body features */
 /* start of nav bar design */
 .clear{
   clear: both;
@@ -72,14 +43,49 @@ a{
   display: flex;
   justify-content: center;
 }
+#Contactinfo3 #Contactinfo4 #Contactinfo2 #Contactinfo1{
+ display: flex;
+ justify-content: flex-end;
+}
 /* end of nav bar design */
 
+/* start of body features */
+
+
+body {
+  background: #000000;
+  background: -moz-linear-gradient(left, #000000 0%, #000000 50%, #333333 100%);
+  background: -webkit-linear-gradient(left, #000000 0%, #000000 50%, #333333 100%);
+  background: linear-gradient(to right, #000000 0%, #000000 50%, #333333 100%);}
+* {
+  color: white;
+}
+p  {
+  font-family: Alegreya, serif;
+  color: white;
+}
+
+h2, h3, h4, h5, h6, footer {
+  color: red;
+}
+h1 {
+color: black;
+}
 h1 {
   display: block;
   background-color: white;
  padding-bottom: 5px
 }
+h2{
+  margin-top: 60px;
+}
 h1 {
+  display: block;
+  background-color: white;
+ padding-bottom: 5px
+}
+
+h1, h2, h3 {
   display: flex;
   justify-content: center;
 }
@@ -88,18 +94,81 @@ h1 {
 margin-left: 20%;
 margin-right: 20%
 }
-/* start of img design */
-img {
-width: 100%;
-height: auto;
+
+h2{
+ display: flex;
+ justify-content: center;
 }
+
+.centering {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+/* end of heading design */
+/* start of paragraph design */
+
+
+p {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.paragraph {
+  font-size: 1.5em;
+  display: flex;
+  margin-bottom: 10%;
+  align-items: center;
+}
+
+/* end of paragraph design */
+footer {
+  color: white;
+  margin-top: 10%;
+}
+
+
+/* start of img design */
+.tennis{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 30%;
+}
+
+.controller {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
 /* end of img desi */
 
- #Contactinfo3 #Contactinfo4 #Contactinfo2 #Contactinfo1{
+/* end of body  */
+
+/* start of media queries  */
+
+@media only screen and (max-width: 600px){
+.Navigation {
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
 }
-section h2{
-  display: flex;
-  justify-content: center;
+.footer {
+  margin: 20%;
+  padding: 20%;
 }
+}
+@media only screen and (min-width: 601px){
+.Navigation {
+  display: grid;
+  grid-template-areas:
+  "a a a"
+  "a a a"
+}
+
+}
+/* end of @media queries  */
