@@ -127,7 +127,9 @@ footer {
   color: white;
   margin-top: 10%;
 }
-
+.footerh2 {
+  font-size: 17px;
+}
 
 /* start of img design */
 .tennis{
